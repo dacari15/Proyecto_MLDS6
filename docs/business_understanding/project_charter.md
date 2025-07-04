@@ -1,6 +1,6 @@
 # Project Charter - Entendimiento del Negocio
 
-##**Presentado por**:  
+## **Presentado por**:  
 # Daniel Cardozo
 
 ## Nombre del Proyecto
