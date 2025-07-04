@@ -1,12 +1,14 @@
 # Project Charter - Entendimiento del Negocio
 
+##**Presentado por**:  
+# Daniel Cardozo
+
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+# **Aplicación de Deep Learning para la Interpretacion Clínica de Pruebas de Sensibilidad Antimicrobiana (SIR)**
 
 ## Objetivo del Proyecto
-
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Construir  un modelo de Deep Learning capaz de convertir la concentracion inhibitoria minima CIM a pruebas de sensibilidad antimicrobiana (SIR) para su posterior interpretacion clinica.
 
 ## Alcance del Proyecto
 
