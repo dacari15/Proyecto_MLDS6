@@ -1,8 +1,11 @@
 # Proyecto_MLDS6
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+En este proyecto final del modulo n° 6 de metodologias agiles en machine learning se implementara la aplicacion de deep learning para la interpretacion clínica de pruebas de sensibilidad antimicrobina por medio de la plantilla de proyecto de Team Data Science Process que usa la Universidad Nacional de Colombia en el "Programa de Formación en ML y DS". 
 
-Esta plantilla proporciona las siguientes carpetas y archivos:
+##Presentado por:
+# *Daniel Fernando Cardozo Aricapa*
+
+Esta este repositorio se encontraran las siguientes carpetas y archivos:
 
 * `src`: acá debe ir el código o implementación del proyecto en Python.
 * `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
