@@ -7,6 +7,8 @@ Este documento contiene los resultados del modelo baseline.
 El modelo baseline es el primer modelo construido y se utiliza para establecer una línea base para el rendimiento de los modelos posteriores.
 En nuestro caso se construyo un codigo que permite entrenar diferentes modelos para cada uno de los antibioticos incluidos en nuestra base de datos. El entrenamiento se realiza para cada antibiotico teniendo encuenta la informacion de cada microorganismo debido a que cada microorganismos presenta un punto de corte de concentracion inhibitoria minima.
 
+Nuestro proyecto no presenta un modelo Baseline, debido a que se utilizo la busqueda de hiperparametros por medio de la metodologia de busqueda bayesiana por medio de la libreria optuna.
+
 
 ## Variables de entrada
 
@@ -568,6 +570,7 @@ Dentro de las principales conclusiones sobre el rendimiento del modelo encontram
 * Los modelos depende principalmente de la calidad de la variable objetivo y el volumen de los datos de entrenamiento para obtener excelentes resultados.
 * Es necesario contar con datos balanceados para obtener excelentes resultados.
 * En general, nuestros modelos presentaron un muy buen rendimeinto para predecir categorias SIR para cada atb y microorganismo.
+* La busqueda del mejor modelo se realizo por medio de la implemtacion de la libreria optuna directamente.
 
 ## Referencias
 Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
