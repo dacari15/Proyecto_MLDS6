@@ -107,6 +107,37 @@ Eti_nombre_atb =  La varianle Etiqueta incluye la informacion de concentracion i
 
 Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
 
+Dentro de las metricas utilizadas para evaluar el rendimiento de los modelos  utilizamos: 
+
+**Accuracy** : 
+La proporción de predicciones correctas entre el total de predicciones realizadas.
+
+Fórmula:
+Accuracy= TP+TN  / TP+FP+TN+FN
+TP: Verdaderos positivos
+TN: Verdaderos negativos
+FP: Falsos positivos
+FN: Falsos negativos
+
+**precision** :
+De todas las predicciones positivas que hizo el modelo, ¿cuántas fueron realmente correctas?
+
+Fórmula:
+Precision = TP / TP+FP
+
+**Recall** : 
+De todos los casos que realmente eran positivos, ¿cuántos fue capaz de identificar el modelo?
+
+Fórmula:
+Recall= TP+FN / TP
+​
+*f1-score** : 
+Es la media armónica entre precision y recall. Equilibra ambos en una sola métrica.
+
+Fórmula:
+F1=2×  (PrecisionxRecall) /(Precision+Recall) 
+
+
 ### Resultados de evaluación
 
 Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
