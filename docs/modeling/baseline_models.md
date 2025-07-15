@@ -562,8 +562,12 @@ Descripción de los resultados del modelo baseline, incluyendo fortalezas y debi
 Al realizar el analisis de los resultados se encuentra muy buenos resultados en la prediccion de las diferentes modelos en las categorias de SIR (sensibilidad, intermedio y resistente) para los diferentes antibioticos, con porcentajes por encima del 90%. No obstante, y a pesar de equilibrar y balancear  las categorias a predecir por medio de tecnicas especificas como Class Weighting, cuando los datos existentes se encontraban por debajo de 20 registro, esta porcentaje bajaba por debajo del 90% en su capacidad de predecir.  
 
 ## Conclusiones
-
 Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+
+Dentro de las principales conclusiones sobre el rendimiento del modelo encontramos : 
+* Los modelos depende principalmente de la calidad de la variable objetivo y el volumen de los datos de entrenamiento para obtener excelentes resultados.
+* Es necesario contar con datos balanceados para obtener excelentes resultados.
+* En general, nuestros modelos presentaron un muy buen rendimeinto para predecir categorias SIR para cada atb y microorganismo.
 
 ## Referencias
 Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
