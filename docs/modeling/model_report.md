@@ -950,6 +950,16 @@ Sin embargo, muestra una debilidad en la mayoria de modelos  en la clase minorit
 ## Conclusiones y Recomendaciones
 En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
 
+Conclusiones generales sobre el rendimiento del modelo final y posibles áreas de mejora.
+
+Dentro de las principales conclusiones sobre el rendimiento del modelo encontramos : 
+* Los modelos depende principalmente de la calidad de la variable objetivo y el volumen de los datos de entrenamiento para obtener excelentes resultados.
+* Es necesario contar con datos balanceados para obtener excelentes resultados.
+* Baja capacidad para predecir las categorias minoritarias R e I en algunos modelos.
+* En general, nuestros modelos presentaron un muy buen rendimeinto para predecir categorias SIR para cada atb y microorganismo.
+* La busqueda del mejor modelo se realizo por medio de la implemtacion de la libreria optuna directamente.
+* Su uso principalmente seria en instituciones de salud publicas y privadas, entidades de salud gubernamentales a nivel local y nacional.
+
 ## Referencias
 En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
 
