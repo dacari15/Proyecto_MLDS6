@@ -9,6 +9,8 @@
 - modelo_CAS_NM
 - modelo_CAZ_NM
 - ...
+<img width="1676" height="816" alt="image" src="https://github.com/user-attachments/assets/c3abd732-ca41-4fb9-8ef3-50ba0f78a521" />
+
 - 
 - 
 - **Plataforma de despliegue:** El modelo se desplegara en la plataforma MlFlow
