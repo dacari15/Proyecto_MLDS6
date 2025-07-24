@@ -52,8 +52,25 @@
 ## Código de despliegue
 
 - **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
+  5_despliegue_modelos.ipynb
+  
 - **Rutas de acceso a los archivos:** (lista de rutas de acceso a los archivos necesarios para el despliegue)
+| Archivo o recurso                          | Propósito                                       | Ruta estimada                     |
+| ------------------------------------------ | ----------------------------------------------- | --------------------------------- |
+| `X_train_list.pkl`                         | Diccionario de features para cada antibiótico   | `/data/X_train_list.pkl`          |
+| `y_train_list.pkl`                         | Etiquetas (clases) por antibiótico              | `/data/y_train_list.pkl`          |
+| `class_weights_list.pkl`                   | Pesos de clase para entrenar con desbalance     | `/data/class_weights_list.pkl`    |
+| `build_model.py` o función en mismo script | Función `build_single_model(df, n_classes=3)`   | `src/modeling/build_model.py`     |
+| `checkpoint` callback                      | Guardado de mejores pesos durante entrenamiento | `callbacks/checkpoint.h5`         |
+| `stopping` callback                        | Early stopping durante entrenamiento            | `callbacks/stopping_callback.pkl` |
+
 - **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
+  
+| Variable                 | Descripción                                                      | Ejemplo                                |
+| ------------------------ | ---------------------------------------------------------------- | -------------------------------------- |
+| `MLFLOW_TRACKING_URI`    | Dirección del servidor MLflow                                    | `http://localhost:5000` o URL en cloud |
+| `MLFLOW_EXPERIMENT_NAME` | nombre_antibiotico_NM                                            | `resistencia_antibioticos`             |
+
 
 ## Documentación del despliegue
 
